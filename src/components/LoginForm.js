@@ -7,16 +7,6 @@ class LoginForm extends React.Component {
     this.state = {username: '', password: ''};
   }
 
-  username = (event) => {
-    this.setState({
-      username: event.target.value
-    })
-  }
-
-  password = () => {
-
-  }
-
   render() {
     return (
       <form>
